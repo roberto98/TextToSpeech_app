@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">TTS_app</string>
+    <string name="app_name">Text to Speech App</string>
+    <string name="app_description">This app is developed by Roberto Di Via for Speech Processing and Recognition project</string>
 </resources>

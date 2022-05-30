@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tts_app.MainActivity">
+    <group android:id="@+id/features" >
+        <item
+            android:id="@+id/action_opt_1"
+            android:orderInCategory="100"
+            android:title="Export as audio file"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_opt_2"
+            android:orderInCategory="100"
+            android:title="Share text to..."
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_opt_3"
+            android:orderInCategory="100"
+            android:title="Clear text"
+            app:showAsAction="never" />
+    </group>
+
+    <group android:id="@+id/settings" >
+        <item
+            android:id="@+id/action_opt_4"
+            android:orderInCategory="100"
+            android:title="Help"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_opt_5"
+            android:orderInCategory="100"
+            android:title="More languages"
+            app:showAsAction="never" />
+    </group>
+</menu>
