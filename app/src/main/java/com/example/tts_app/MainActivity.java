@@ -349,10 +349,4 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         Log.d(LOG_TAG, "onDestroy");
     }
 
- // TODO: mettere il pulsante stop, clear casella, share/save
-    //TODO: storico delle registrazioni, da salvare e risentire https://stackoverflow.com/questions/14683559/how-to-store-text-to-speech-output-as-wav-file
-    // https://android-developers.googleblog.com/2009/09/introduction-to-text-to-speech-in.html
-    // https://www.tabnine.com/code/java/methods/android.speech.tts.TextToSpeech/synthesizeToFile
-    // https://stackoverflow.com/questions/28714989/android-texttospeech-synthesizetofile-file-is-not-created ----------- pause/play reading the text
-    // IBM Watson https://www.youtube.com/watch?v=DU5Wu-5L1h4
 }
